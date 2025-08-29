@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif; /* Sets a clean font */
+}
+
+h1,h2{
+	text-align: center;
+}
+ul {
+     list-style-type: none;
+	 padding: 0; /* Removes default padding */
+    }
+a {
+    text-decoration: none; /* Removes underline from links */
+    color: #007BFF; /* Sets a color for links */
+}
+li {
+   margin: 10px 0; /* Adds space between list items */
+}
+.player_Zero,.player_one,.player_two{
+	 background-color: rgb(255, 255, 255);
+	 border: 2px solid black;
+     padding: 10px; /* Add padding as needed */
+     border-radius: 5px; /* Adjust radius as needed */
+	
+}
+video, audio {
+    width: 100%; /* Makes video/audio responsive */
+   
+}
